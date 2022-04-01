@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PackageManifest Version="2.0.0" xmlns="http://schemas.microsoft.com/developer/vsx-schema/2011" xmlns:d="http://schemas.microsoft.com/developer/vsx-schema-design/2011">
+    <Metadata>
+        <Identity Id="87565563-0686-4C2F-9086-1BED3E149294" Version="1.0" Language="en-US" Publisher="Stefan Felkel" />
+        <DisplayName>Visual Studio Flatbuffers IDL Syntax Highlighting</DisplayName>
+        <Description xml:space="preserve">Visual Studio extension for Flatbuffers Interface Definition Language Syntax Highlighting</Description>
+        <MoreInfo>https://github.com/stefan301/TextmateFbs</MoreInfo>
+        <Icon>Resources\Icon.png</Icon>
+        <PreviewImage>Resources\Icon.png</PreviewImage>
+        <Tags>textmate, bundle, flatbuffers</Tags>
+    </Metadata>
+    <Installation>
+        <InstallationTarget Id="Microsoft.VisualStudio.Community" Version="[15.0,18.0]">
+            <ProductArchitecture>x86</ProductArchitecture>
+        </InstallationTarget>
+        <InstallationTarget Version="[15.0,18.0)" Id="Microsoft.VisualStudio.Pro">
+            <ProductArchitecture>x86</ProductArchitecture>
+        </InstallationTarget>
+        <InstallationTarget Version="[15.0,18.0)" Id="Microsoft.VisualStudio.Enterprise">
+            <ProductArchitecture>x86</ProductArchitecture>
+        </InstallationTarget>
+        <InstallationTarget Version="[17.0,18.0)" Id="Microsoft.VisualStudio.Pro">
+            <ProductArchitecture>amd64</ProductArchitecture>
+        </InstallationTarget>
+        <InstallationTarget Version="[17.0,18.0)" Id="Microsoft.VisualStudio.Enterprise">
+            <ProductArchitecture>amd64</ProductArchitecture>
+        </InstallationTarget>
+        <InstallationTarget Version="[17.0,18.0)" Id="Microsoft.VisualStudio.Community">
+            <ProductArchitecture>amd64</ProductArchitecture>
+        </InstallationTarget>
+    </Installation>
+    <Dependencies>
+        <Dependency Id="Microsoft.Framework.NDP" DisplayName="Microsoft .NET Framework" d:Source="Manual" Version="[4.5,)" />
+    </Dependencies>
+    <Assets>
+        <Asset Type="Microsoft.VisualStudio.VsPackage" d:Source="File" Path="languages.pkgdef" />
+    </Assets>
+    <Prerequisites>
+        <Prerequisite Id="Microsoft.VisualStudio.Component.CoreEditor" Version="[15.0,18.0)" DisplayName="Visual Studio core editor" />
+    </Prerequisites>
+</PackageManifest>
