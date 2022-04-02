@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+  <dict>
+    <key>name</key>
+    <string>Visual Studio Flatbuffers TextMate Theme</string>
+    <key>settings</key>
+    <array>
+
+	    <dict>
+		    <key>scope</key>
+		    <string>comment</string>
+		    <key>settings</key>
+		    <dict>
+			    <key>vsclassificationtype</key>
+			    <string>comment</string>
+		    </dict>
+	    </dict>
+
+	    <dict>
+		    <key>scope</key>
+		    <string>string</string>
+		    <key>settings</key>
+		    <dict>
+			    <key>vsclassificationtype</key>
+			    <string>string</string>
+		    </dict>
+	    </dict>
+
+	    <dict>
+		    <key>scope</key>
+		    <string>entity.name.meta.flatbuffers</string>
+		    <key>settings</key>
+		    <dict>
+			    <key>vsclassificationtype</key>
+			    <!--<string>symbol reference</string>-->
+			    <string>preprocessor keyword</string>
+		    </dict>
+	    </dict>
+
+	    <dict>
+		    <key>scope</key>
+		    <string>keyword, constant, storage.type</string>
+		    <key>settings</key>
+		    <dict>
+			    <key>vsclassificationtype</key>
+			    <string>keyword</string>
+		    </dict>
+	    </dict>
+
+	    <dict>
+		    <key>scope</key>
+		    <string>entity.name.type</string>
+		    <key>settings</key>
+		    <dict>
+			    <key>vsclassificationtype</key>
+			    <string>type</string>
+		    </dict>
+	    </dict>
+
+	    <dict>
+		    <key>scope</key>
+		    <string>entity.name.section</string>
+		    <key>settings</key>
+		    <dict>
+			    <key>vsclassificationtype</key>
+			    <string>preprocessor keyword</string>
+		    </dict>
+	    </dict>
+
+	    <dict>
+		    <key>scope</key>
+		    <string>entity.name.tag</string>
+		    <key>settings</key>
+		    <dict>
+			    <key>vsclassificationtype</key>
+			    <string>identifier</string>
+		    </dict>
+	    </dict>
+
+	    <dict>
+		    <key>scope</key>
+		    <string>constant.numeric, invalid.illegal</string>
+		    <key>settings</key>
+		    <dict>
+			    <key>vsclassificationtype</key>
+			    <string>number</string>
+		    </dict>
+	    </dict>
+
+    </array>
+    <key>uuid</key>
+    <string>5EB1CAC3-9EA6-4CF1-A95D-35DDAF4477CA</string>
+  </dict>
+</plist>
